@@ -1,0 +1,183 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateway", "APIGateway", "{938F5532-EA24-4C1D-BD53-2E490A95E54C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FFEE5232-C84C-4A40-ADA1-27516AA00184}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12F6A248-6F94-492F-B87E-5ECB1E4890FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8ACF1F41-9BD0-4972-800A-AAAB4AE6714F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{057FD194-B93E-4AFE-931B-E7DBC9BCF01F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{963AEC83-B9DF-4573-8168-9BE4D1A86ED7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{41EFC1BA-AD5B-40E3-9B09-A90E2EF048EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{F3B1345E-07B2-4023-BF58-C00F2F8437E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FontIconService", "FontIconService", "{783C37A7-8F49-4A99-B671-CC6BC11F142B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "command", "command", "{D5984BF2-CD54-4FA7-8E59-FFA9224D73E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "query", "query", "{1F84CBB5-7A2C-4A5C-921D-AC8588883D18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "command", "command", "{874171DB-73F5-4715-A5F5-52FDB7ED1BF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "query", "query", "{A8883826-001A-40A4-8F28-2CA048A00F69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FontIconService", "FontIconService", "{5EBAA354-CE29-4C56-A896-C38A500235AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.commandAPI", "src\Modules\config\FontIconService\command\obsCommon.configFontIcon.commandAPI\obsCommon.configFontIcon.commandAPI.csproj", "{7C449591-CD2E-470C-ACC8-0D99CEC6EBA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.commandApplication", "src\Modules\config\FontIconService\command\obsCommon.configFontIcon.commandApplication\obsCommon.configFontIcon.commandApplication.csproj", "{EE27A711-E83C-459A-9CD1-8E5CCA395F2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.commandContract", "src\Modules\config\FontIconService\command\obsCommon.configFontIcon.commandContract\obsCommon.configFontIcon.commandContract.csproj", "{134EAA67-91D2-4918-ABAA-AF2C54B59202}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.commandDomain", "src\Modules\config\FontIconService\command\obsCommon.configFontIcon.commandDomain\obsCommon.configFontIcon.commandDomain.csproj", "{B21B63DA-753E-4A35-8494-C8338EFBAE71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.commandInfrastructure", "src\Modules\config\FontIconService\command\obsCommon.configFontIcon.commandInfrastructure\obsCommon.configFontIcon.commandInfrastructure.csproj", "{FA89EC60-97F2-445D-B1BA-303F7CEB8D3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.commandPersistence", "src\Modules\config\FontIconService\command\obsCommon.configFontIcon.commandPersistence\obsCommon.configFontIcon.commandPersistence.csproj", "{BB13B665-8677-40E8-BDFA-A084DC1D17BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.commandPresentation", "src\Modules\config\FontIconService\command\obsCommon.configFontIcon.commandPresentation\obsCommon.configFontIcon.commandPresentation.csproj", "{DD848BD0-FD48-4FEA-A48A-FC3CB55961B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.queryAPI", "src\Modules\config\FontIconService\query\obsCommon.configFontIcon.queryAPI\obsCommon.configFontIcon.queryAPI.csproj", "{B6FF8EDA-5161-43A0-BB5D-6BB739542B97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.queryApplication", "src\Modules\config\FontIconService\query\obsCommon.configFontIcon.queryApplication\obsCommon.configFontIcon.queryApplication.csproj", "{1277ACBF-D9B7-4FD8-A94F-9A68B64BB50E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.queryContract", "src\Modules\config\FontIconService\query\obsCommon.configFontIcon.queryContract\obsCommon.configFontIcon.queryContract.csproj", "{330E1543-E705-4E48-9738-D2EA4073C0A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.queryDomain", "src\Modules\config\FontIconService\query\obsCommon.configFontIcon.queryDomain\obsCommon.configFontIcon.queryDomain.csproj", "{4806098F-1124-4737-84E7-2494D9156893}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.queryPersistence", "src\Modules\config\FontIconService\query\obsCommon.configFontIcon.queryPersistence\obsCommon.configFontIcon.queryPersistence.csproj", "{2EBB8CE7-430A-4294-8FDB-8CB9875A8033}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.queryPresentation", "src\Modules\config\FontIconService\query\obsCommon.configFontIcon.queryPresentation\obsCommon.configFontIcon.queryPresentation.csproj", "{84E1A599-247F-4A74-A2BA-FE1A1527B564}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.queryInfrastructure", "src\Modules\config\FontIconService\query\obsCommon.configFontIcon.queryInfrastructure\obsCommon.configFontIcon.queryInfrastructure.csproj", "{E4A5ECC4-2AA8-48DC-8463-DD5A96760E1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.commandApplication.Test", "test\Modules\config\FontIconService\command\obsCommon.configFontIcon.commandApplication.Test\obsCommon.configFontIcon.commandApplication.Test.csproj", "{5BD76559-DBB5-4AF9-9D73-5BF4688E2530}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.commandDomain.Test", "test\Modules\config\FontIconService\command\obsCommon.configFontIcon.commandDomain.Test\obsCommon.configFontIcon.commandDomain.Test.csproj", "{FC53D07E-A386-4B75-BB4F-F382FEB18CCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "obsCommon.configFontIcon.queryApplication.Test", "test\Modules\config\FontIconService\query\obsCommon.configLang.queryApplication.Test\obsCommon.configFontIcon.queryApplication.Test.csproj", "{D53235E1-4F15-429A-A4ED-FB29C6789820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C449591-CD2E-470C-ACC8-0D99CEC6EBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C449591-CD2E-470C-ACC8-0D99CEC6EBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C449591-CD2E-470C-ACC8-0D99CEC6EBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C449591-CD2E-470C-ACC8-0D99CEC6EBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE27A711-E83C-459A-9CD1-8E5CCA395F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE27A711-E83C-459A-9CD1-8E5CCA395F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE27A711-E83C-459A-9CD1-8E5CCA395F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE27A711-E83C-459A-9CD1-8E5CCA395F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134EAA67-91D2-4918-ABAA-AF2C54B59202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134EAA67-91D2-4918-ABAA-AF2C54B59202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134EAA67-91D2-4918-ABAA-AF2C54B59202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134EAA67-91D2-4918-ABAA-AF2C54B59202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21B63DA-753E-4A35-8494-C8338EFBAE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21B63DA-753E-4A35-8494-C8338EFBAE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21B63DA-753E-4A35-8494-C8338EFBAE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21B63DA-753E-4A35-8494-C8338EFBAE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA89EC60-97F2-445D-B1BA-303F7CEB8D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA89EC60-97F2-445D-B1BA-303F7CEB8D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA89EC60-97F2-445D-B1BA-303F7CEB8D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA89EC60-97F2-445D-B1BA-303F7CEB8D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB13B665-8677-40E8-BDFA-A084DC1D17BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB13B665-8677-40E8-BDFA-A084DC1D17BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB13B665-8677-40E8-BDFA-A084DC1D17BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB13B665-8677-40E8-BDFA-A084DC1D17BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD848BD0-FD48-4FEA-A48A-FC3CB55961B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD848BD0-FD48-4FEA-A48A-FC3CB55961B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD848BD0-FD48-4FEA-A48A-FC3CB55961B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD848BD0-FD48-4FEA-A48A-FC3CB55961B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FF8EDA-5161-43A0-BB5D-6BB739542B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FF8EDA-5161-43A0-BB5D-6BB739542B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FF8EDA-5161-43A0-BB5D-6BB739542B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FF8EDA-5161-43A0-BB5D-6BB739542B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1277ACBF-D9B7-4FD8-A94F-9A68B64BB50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1277ACBF-D9B7-4FD8-A94F-9A68B64BB50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1277ACBF-D9B7-4FD8-A94F-9A68B64BB50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1277ACBF-D9B7-4FD8-A94F-9A68B64BB50E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330E1543-E705-4E48-9738-D2EA4073C0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330E1543-E705-4E48-9738-D2EA4073C0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330E1543-E705-4E48-9738-D2EA4073C0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330E1543-E705-4E48-9738-D2EA4073C0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4806098F-1124-4737-84E7-2494D9156893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4806098F-1124-4737-84E7-2494D9156893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4806098F-1124-4737-84E7-2494D9156893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4806098F-1124-4737-84E7-2494D9156893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBB8CE7-430A-4294-8FDB-8CB9875A8033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBB8CE7-430A-4294-8FDB-8CB9875A8033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBB8CE7-430A-4294-8FDB-8CB9875A8033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBB8CE7-430A-4294-8FDB-8CB9875A8033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E1A599-247F-4A74-A2BA-FE1A1527B564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E1A599-247F-4A74-A2BA-FE1A1527B564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E1A599-247F-4A74-A2BA-FE1A1527B564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E1A599-247F-4A74-A2BA-FE1A1527B564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A5ECC4-2AA8-48DC-8463-DD5A96760E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A5ECC4-2AA8-48DC-8463-DD5A96760E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A5ECC4-2AA8-48DC-8463-DD5A96760E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A5ECC4-2AA8-48DC-8463-DD5A96760E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD76559-DBB5-4AF9-9D73-5BF4688E2530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD76559-DBB5-4AF9-9D73-5BF4688E2530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD76559-DBB5-4AF9-9D73-5BF4688E2530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD76559-DBB5-4AF9-9D73-5BF4688E2530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC53D07E-A386-4B75-BB4F-F382FEB18CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC53D07E-A386-4B75-BB4F-F382FEB18CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC53D07E-A386-4B75-BB4F-F382FEB18CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC53D07E-A386-4B75-BB4F-F382FEB18CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53235E1-4F15-429A-A4ED-FB29C6789820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53235E1-4F15-429A-A4ED-FB29C6789820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53235E1-4F15-429A-A4ED-FB29C6789820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53235E1-4F15-429A-A4ED-FB29C6789820}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{057FD194-B93E-4AFE-931B-E7DBC9BCF01F} = {12F6A248-6F94-492F-B87E-5ECB1E4890FA}
+		{963AEC83-B9DF-4573-8168-9BE4D1A86ED7} = {057FD194-B93E-4AFE-931B-E7DBC9BCF01F}
+		{41EFC1BA-AD5B-40E3-9B09-A90E2EF048EB} = {8ACF1F41-9BD0-4972-800A-AAAB4AE6714F}
+		{F3B1345E-07B2-4023-BF58-C00F2F8437E9} = {41EFC1BA-AD5B-40E3-9B09-A90E2EF048EB}
+		{783C37A7-8F49-4A99-B671-CC6BC11F142B} = {963AEC83-B9DF-4573-8168-9BE4D1A86ED7}
+		{D5984BF2-CD54-4FA7-8E59-FFA9224D73E6} = {783C37A7-8F49-4A99-B671-CC6BC11F142B}
+		{1F84CBB5-7A2C-4A5C-921D-AC8588883D18} = {783C37A7-8F49-4A99-B671-CC6BC11F142B}
+		{874171DB-73F5-4715-A5F5-52FDB7ED1BF2} = {5EBAA354-CE29-4C56-A896-C38A500235AA}
+		{A8883826-001A-40A4-8F28-2CA048A00F69} = {5EBAA354-CE29-4C56-A896-C38A500235AA}
+		{5EBAA354-CE29-4C56-A896-C38A500235AA} = {F3B1345E-07B2-4023-BF58-C00F2F8437E9}
+		{7C449591-CD2E-470C-ACC8-0D99CEC6EBA6} = {D5984BF2-CD54-4FA7-8E59-FFA9224D73E6}
+		{EE27A711-E83C-459A-9CD1-8E5CCA395F2D} = {D5984BF2-CD54-4FA7-8E59-FFA9224D73E6}
+		{134EAA67-91D2-4918-ABAA-AF2C54B59202} = {D5984BF2-CD54-4FA7-8E59-FFA9224D73E6}
+		{B21B63DA-753E-4A35-8494-C8338EFBAE71} = {D5984BF2-CD54-4FA7-8E59-FFA9224D73E6}
+		{FA89EC60-97F2-445D-B1BA-303F7CEB8D3C} = {D5984BF2-CD54-4FA7-8E59-FFA9224D73E6}
+		{BB13B665-8677-40E8-BDFA-A084DC1D17BE} = {D5984BF2-CD54-4FA7-8E59-FFA9224D73E6}
+		{DD848BD0-FD48-4FEA-A48A-FC3CB55961B5} = {D5984BF2-CD54-4FA7-8E59-FFA9224D73E6}
+		{B6FF8EDA-5161-43A0-BB5D-6BB739542B97} = {1F84CBB5-7A2C-4A5C-921D-AC8588883D18}
+		{1277ACBF-D9B7-4FD8-A94F-9A68B64BB50E} = {1F84CBB5-7A2C-4A5C-921D-AC8588883D18}
+		{330E1543-E705-4E48-9738-D2EA4073C0A2} = {1F84CBB5-7A2C-4A5C-921D-AC8588883D18}
+		{4806098F-1124-4737-84E7-2494D9156893} = {1F84CBB5-7A2C-4A5C-921D-AC8588883D18}
+		{2EBB8CE7-430A-4294-8FDB-8CB9875A8033} = {1F84CBB5-7A2C-4A5C-921D-AC8588883D18}
+		{84E1A599-247F-4A74-A2BA-FE1A1527B564} = {1F84CBB5-7A2C-4A5C-921D-AC8588883D18}
+		{E4A5ECC4-2AA8-48DC-8463-DD5A96760E1B} = {1F84CBB5-7A2C-4A5C-921D-AC8588883D18}
+		{5BD76559-DBB5-4AF9-9D73-5BF4688E2530} = {874171DB-73F5-4715-A5F5-52FDB7ED1BF2}
+		{FC53D07E-A386-4B75-BB4F-F382FEB18CCE} = {874171DB-73F5-4715-A5F5-52FDB7ED1BF2}
+		{D53235E1-4F15-429A-A4ED-FB29C6789820} = {A8883826-001A-40A4-8F28-2CA048A00F69}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6F284F1-1526-4ACD-995D-1E1FE500EEEE}
+	EndGlobalSection
+EndGlobal

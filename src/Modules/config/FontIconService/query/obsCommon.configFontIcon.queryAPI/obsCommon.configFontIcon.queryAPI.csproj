@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\obsCommon.configFontIcon.queryApplication\obsCommon.configFontIcon.queryApplication.csproj" />
+    <ProjectReference Include="..\obsCommon.configFontIcon.queryPersistence\obsCommon.configFontIcon.queryPersistence.csproj" />
+    <ProjectReference Include="..\obsCommon.configFontIcon.queryPresentation\obsCommon.configFontIcon.queryPresentation.csproj" />
+  </ItemGroup>
+
+</Project>
