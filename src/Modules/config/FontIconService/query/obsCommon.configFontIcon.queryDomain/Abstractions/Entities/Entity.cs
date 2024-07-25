@@ -8,7 +8,7 @@
         /// <summary>
         /// Primary key of entity
         /// </summary>
-        public TKey IdxKey { get; set; }
+        public TKey Id { get; set; }
 
         public abstract void Validate();
     }

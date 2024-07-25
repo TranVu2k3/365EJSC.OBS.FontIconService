@@ -1,10 +1,8 @@
 ﻿using obsCommon.configFontIcon.commandDomain.Abstractions.Aggregates;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace obsCommon.configFontIcon.commandDomain.Entities
 {
-    [Table("ConfigFonticon")]
-    public class Sample : AggregateRoot<string>
+    public class FontIcon : AggregateRoot<string>
     {
         public string? Description { get; set; }
 

@@ -5,12 +5,12 @@ using obsCommon.configFontIcon.commandPersistence.Constants;
 
 namespace obsCommon.configFontIcon.commandPersistence.Configurations
 {
-    public class SampleConfiguration : IEntityTypeConfiguration<Sample>
+    public class FontIconConfiguration : IEntityTypeConfiguration<FontIcon>
     {
-        public void Configure(EntityTypeBuilder<Sample> builder)
+        public void Configure(EntityTypeBuilder<FontIcon> builder)
         {
-            builder.HasKey(x => x.IdxKey);
-            builder.ToTable(TableNames.SampleTable);
+            builder.HasKey(x => x.Id);
+            builder.ToTable(TableNames.FontIconTable);
         }
     }
 }

@@ -5,6 +5,6 @@
     /// </summary>
     public class TableNames
     {
-        public static string SampleTable = "ConfigFonticon";
+        public static string FontIconTable = "ConfigFonticon";
     }
 }
