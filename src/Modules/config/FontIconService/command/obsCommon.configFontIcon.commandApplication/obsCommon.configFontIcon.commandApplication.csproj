@@ -22,4 +22,9 @@
     <PackageReference Include="MediatR" Version="12.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\obsCommon.configFontIcon.commandContract\obsCommon.configFontIcon.commandContract.csproj" />
+    <ProjectReference Include="..\obsCommon.configFontIcon.commandDomain\obsCommon.configFontIcon.commandDomain.csproj" />
+  </ItemGroup>
+
 </Project>

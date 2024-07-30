@@ -18,6 +18,7 @@ namespace obsCommon.configFontIcon.commandPresentation.Abstractions
 
             //create api version prefix group
             var versionGroup = app.MapGroup("api/v{apiVersion:apiVersion}").WithApiVersionSet(apiVersionSet);
+            versionGroup.MapFontIconEndpoints();
             return app;
         }
     }

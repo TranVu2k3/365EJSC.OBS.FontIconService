@@ -3,8 +3,8 @@
     /// <summary>
     /// Has constants about table name
     /// </summary>
-    public class TableNames
+    public class TableName
     {
-        public static string FontIconTable = "ConfigFonticon";
+        public static string FontIconTable = "config_fonticon";
     }
 }

@@ -36,6 +36,7 @@ namespace obsCommon.configFontIcon.commandPersistence.DependencyInjection.Extens
         private static IServiceCollection RegisterServices(this IServiceCollection services)
         {
             services.AddScoped(typeof(IGenericRepository<,>), typeof(GenericRepository<,>));
+            services.AddScoped<IFontIconRepository, FontIconRepository>();
             return services;
         }
     }

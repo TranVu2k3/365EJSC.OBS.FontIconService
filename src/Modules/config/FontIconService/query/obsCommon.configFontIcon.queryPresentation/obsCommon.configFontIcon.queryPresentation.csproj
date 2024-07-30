@@ -18,5 +18,8 @@
 	  <ProjectReference Include="..\obsCommon.configFontIcon.queryApplication\obsCommon.configFontIcon.queryApplication.csproj" />
 	  <ProjectReference Include="..\obsCommon.configFontIcon.queryContract\obsCommon.configFontIcon.queryContract.csproj" />
 	</ItemGroup>
+	<ItemGroup>
+		<Protobuf Include="Services\fonticon.proto" GrpcServices="Server" />
+	</ItemGroup>
 	
 </Project>

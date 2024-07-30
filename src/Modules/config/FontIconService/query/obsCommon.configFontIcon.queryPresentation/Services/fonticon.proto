@@ -1,0 +1,26 @@
+syntax = "proto3";
+option csharp_namespace = "FontIconGrpc";
+package fonticon;
+
+service FontIcon {
+  rpc GetFontIconById(GetFontIconByIdRequest) returns (GetFontIconByIdResponse);
+  rpc GetAllFontIcon(GetAllFontIconRequest) returns (GetAllFontIconResponse);
+}
+
+message GetFontIconByIdRequest{
+	string Id = 1;
+}
+
+message GetFontIconByIdResponse{
+	string Id = 1;
+	string Description = 2;
+    string Type = 3;
+	string Version = 4;	
+	bool IsActived = 5;
+}
+
+message GetAllFontIconRequest {}
+
+message GetAllFontIconResponse{
+	repeated GetFontIconByIdResponse FontIcon = 1;
+}
